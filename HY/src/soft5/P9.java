@@ -80,10 +80,10 @@ public class P9 {
 			//System.out.println(a);
 			//System.out.println(String.valueOf(a).getBytes().length);
 			
-			if (k_10itemname[k_10i].length() > 10) {
-				k_10itemname[k_10i] = k_10itemname[k_10i].substring(0, 10);
+			if (k_10itemname[k_10i].length() > 11) {
+				k_10itemname[k_10i] = k_10itemname[k_10i].substring(0, 11);
 			}
-			int num = 20 - k_10itemname[k_10i].getBytes().length;
+			int num = 22 - k_10itemname[k_10i].getBytes().length;
 			for (int k_10j = 0; k_10j < num; k_10j++) {
 				k_10itemname[k_10i] += " ";
 			}
@@ -92,7 +92,7 @@ public class P9 {
 		for (int k_10i = 0; k_10i < k_10price.length; k_10i++) {
 			stringprice[k_10i] = String.valueOf(k_10price[k_10i]);
 
-			int num = 10 - stringprice[k_10i].getBytes().length;
+			int num = 8 - stringprice[k_10i].getBytes().length;
 			for (int k_10j = 0; k_10j < num; k_10j++) {
 				stringprice[k_10i] += " ";
 			}
